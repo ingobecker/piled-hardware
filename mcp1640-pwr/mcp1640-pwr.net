@@ -1,0 +1,97 @@
+# EESchema Netlist Version 1.1 created  Mi 05 Sep 2012 16:36:47 CEST
+(
+ ( /5047531A $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /50475306 $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000005 )
+  (    3 +5V )
+ )
+ ( /504751D4 $noname  C2 10µ {Lib=C}
+  (    1 GND )
+  (    2 N-000005 )
+ )
+ ( /504751C7 $noname  R1 976k {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000003 )
+ )
+ ( /504751B3 $noname  L1 4.7µ {Lib=INDUCTOR}
+  (    1 +5V )
+  (    2 N-000002 )
+ )
+ ( /504751A9 $noname  C1 4.7µ {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5047518F $noname  R2 309k {Lib=R}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /5047518A $noname  U1 MCP1640 {Lib=MCP1640}
+  (    1 N-000002 )
+  (    2 GND )
+  (    3 +5V )
+  (    4 N-000003 )
+  (    5 N-000005 )
+  (    6 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ K1 1
+ C1 2
+ R2 2
+ U1 2
+ C2 1
+ P1 1
+Net 2 "" ""
+ L1 2
+ U1 1
+Net 3 "" ""
+ R2 1
+ R1 2
+ U1 4
+Net 4 "+5V" "+5V"
+ U1 6
+ U1 3
+ P1 2
+ C1 1
+ L1 1
+ K1 3
+Net 5 "" ""
+ K1 2
+ R1 1
+ C2 2
+ U1 5
+}
+#End

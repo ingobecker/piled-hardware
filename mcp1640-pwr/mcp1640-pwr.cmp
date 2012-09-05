@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mi 05 Sep 2012 16:02:30 CEST
+
+BeginCmp
+TimeStamp = /504751A9;
+Reference = C1;
+ValeurCmp = 4.7µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504751D4;
+Reference = C2;
+ValeurCmp = 10µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50475306;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /504751B3;
+Reference = L1;
+ValeurCmp = 4.7µ;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047531A;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /504751C7;
+Reference = R1;
+ValeurCmp = 976k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047518F;
+Reference = R2;
+ValeurCmp = 309k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047518A;
+Reference = U1;
+ValeurCmp = MCP1640;
+IdModule  = SOT23_6;
+EndCmp
+
+EndListe
