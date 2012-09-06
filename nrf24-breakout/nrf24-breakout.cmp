@@ -1,17 +1,24 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mi 05 Sep 2012 14:06:49 CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Do 06 Sep 2012 01:54:25 CEST
 
 BeginCmp
-TimeStamp = /50473E39;
+TimeStamp = /5047E2E7;
 Reference = J1;
 ValeurCmp = SIL10;
 IdModule  = SIL-10;
 EndCmp
 
 BeginCmp
-TimeStamp = /50473DC6;
+TimeStamp = /5047E2DB;
+Reference = J2;
+ValeurCmp = SIL10;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047E2A5;
 Reference = P1;
-ValeurCmp = CONN_5X2;
-IdModule  = PIN_ARRAY_5x2;
+ValeurCmp = CONN_10X2;
+IdModule  = pin_array_12x2;
 EndCmp
 
 EndListe
